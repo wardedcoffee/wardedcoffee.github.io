@@ -1,5 +1,5 @@
 :root {
-  --body-bg-color: #333333;
+  --body-bg-color: #FAF7FD;
   --purple: #BB99DD;
 }
 
@@ -112,4 +112,11 @@ body {
       height: 100px;
     }
 
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --body-bg-color: #333333;
+      --purple: #BB99DD;
+    }
   }
